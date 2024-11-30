@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    @apply font-poppins 
+}
+
+body{
+    @apply text-secondary text-[17px] leading-8
+}
+/* 
+.h1{
+    @apply text-[36px] xl:text-[64px] font-semibold
+}
+
+.h2{
+    @apply text-[30px] xl:text-[44px] font-semibold capitalize tracking-[0.44px]
+}
+
+.h3{
+    @apply text-[20px] xl:text-[26px] font-semibold
+}
+
+.h4{
+    @apply text-[20px] xl:text-[26px] font-semibold capitalize
+}
+
+.btn{
+    @apply rounded-full capitalize flex items-center justify-center tracking-[1.02px] transition-all
+}
+.btn-sm{
+    @apply h-[14px] px-10
+}
+.btn-lg{
+    @apply h-[14px] px-[50px]
+}
+
+.btn-accent{
+    @apply bg-accent text-white hover:bg-accent-secondary
+}
+
+.btn-white{
+    @apply bg-white text-accent hover:bg-white/90
+}
+.btn_outline{
+    @apply bg-transparent border-2 border-accent text-secondary hover:bg-accent hover:border-transparent hover:text-white
+}
+
+.section_container{
+    @apply  max-w-7xl flex flex-col items-center
+ } */
+
+
+
+@layer components{
+
+    .section_container{
+        @apply  max-w-7xl flex flex-col items-center mx-auto
+     } 
+
+
+     .btn{
+        @apply rounded-full capitalize flex items-center justify-center tracking-[1.02px] transition-all text-xl
+    }
+
+    .btn-sm{
+        @apply py-[14px] px-10 
+    }
+
+    .btn_outline{
+        @apply bg-transparent border-2 border-accent text-secondary hover:bg-accent hover:border-transparent hover:text-white
+    }
+
+    .btn-lg{
+        @apply h-[14px] px-[50px]
+    }
+
+    .h1{
+        @apply text-[36px] xl:text-[64px] font-semibold
+    }
+    
+    .h2{
+        @apply text-[30px] xl:text-[44px] font-semibold capitalize tracking-[0.44px]
+    }
+    
+    .h3{
+        @apply text-[20px] xl:text-[26px] font-semibold
+    }
+    
+    .h4{
+        @apply text-[20px] xl:text-[26px] font-semibold capitalize
+    }
+
+    .btn-accent{
+        @apply bg-accent text-white hover:bg-accent-secondary
+    }
+    
+    .btn-white{
+        @apply bg-white text-accent hover:bg-white/90
+    }
+
+    
+
+
+
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="../output.css" rel="stylesheet" />
+
+  <!-- fontaswome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- header start -->
+  <header>
+    <section class="section_container pt-6 py-14 lg:flex-row lg:justify-between lg:items-center gap-y-6 lg:gap-y-0">
+      <div class=" ">
+        <a href="">
+          <img src="../../assets/img/header/logo.svg" class="w-60" alt="" />
+        </a>
+      </div>
+      <div class="lg:flex-row flex-col flex lg:gap-x-7 gap-y-4 lg:gap-y-0">
+        <div class="flex gap-x-4 items-center justify-center">
+          <i class="fa-solid fa-location-dot text-2xl text-accent"></i>
+          <div>123, Arling, Yangon, NY</div>
+        </div>
+        <div class="flex gap-x-4 items-center justify-center">
+          <i class="fa-solid fa-phone text-2xl text-accent"></i>
+          <div>(+959) 999 888 777</div>
+        </div>
+        <button class="btn btn-sm btn_outline">Book Now</button>
+
+        <!-- mobile nav  -->
+        <nav id="mnav" class="fixed top-0 -left-[300px] h-screen w-[300px] bg-white shadow-custom1 lg:hidden">
+          <div id="mnav_close_btn"
+            class="bg-primary size-7 relative top-8 -right-full rounded-r-lg text-center transition-all duration-300 cursor-pointer">
+            <i id="mnav_close_btn_icon" class="fa-solid fa-angle-right text-2xl text-white"></i>
+          </div>
+          <!-- logo list and form  -->
+          <div>
+            <a href="" class="flex justify-center">
+              <img src="../../assets/img/header/logo.svg" class="w-48" alt="" />
+            </a>
+            <ul class="text-[19px] ml-14 flex flex-col gap-y-5 mt-10">
+              <li>
+                <a href="" class="font-[550px]  hover:text-accent cursor-pointer">Home</a>
+              </li>
+              <li>
+                <a href="" class="font-[550px]  hover:text-accent cursor-pointer">Doctor</a>
+              </li>
+              <li>
+                <a href="" class="font-[550px]  hover:text-accent cursor-pointer">Department</a>
+              </li>
+              <li>
+                <a href="" class="font-[550px]  hover:text-accent cursor-pointer">Services</a>
+              </li>
+              <li>
+                <a href="" class="font-[550px]  hover:text-accent cursor-pointer">Blog</a>
+              </li>
+              <li>
+                <a href="" class="font-[550px]  hover:text-accent cursor-pointer">Contact</a>
+              </li>
+            </ul>
+            <!-- form  -->
+            <form action="" class="ml-14 flex items-center justify-start gap-x-4 mt-10">
+              <label for=""><i class="text-2xl text-accent fa-solid fa-magnifying-glass"></i></label>
+              <input type="text" placeholder=" search..."
+                class="outline-none w-[160px] border-b-2 focus:border-b-2 focus:border-accent placeholder:italic" />
+            </form>
+          </div>
+        </nav>
+        <!-- destop nav  -->
+        <nav
+          class="bg-white shadow-custom1 absolute top-28 left-0 w-full rounded-[14px] hidden lg:flex lg:items-center lg:justify-between lg:px-[220px] h-16">
+          <ul class="flex gap-x-5 items-center">
+            <li>
+              <a href="" class="font-[550px] border-r-2 pr-4 hover:text-accent cursor-pointer">Home</a>
+            </li>
+            <li>
+              <a href="" class="font-[550px] border-r-2 pr-4 hover:text-accent cursor-pointer">Doctor</a>
+            </li>
+            <li>
+              <a href="" class="font-[550px] border-r-2 pr-4 hover:text-accent cursor-pointer">Department</a>
+            </li>
+            <li>
+              <a href="" class="font-[550px] border-r-2 pr-4 hover:text-accent cursor-pointer">Services</a>
+            </li>
+            <li>
+              <a href="" class="font-[550px] border-r-2 pr-4 hover:text-accent cursor-pointer">Blog</a>
+            </li>
+            <li>
+              <a href="" class="font-[550px] hover:text-accent cursor-pointer">Contact</a>
+            </li>
+          </ul>
+          <!-- form  -->
+          <form action="" class="flex items-center justify-start gap-x-4">
+            <label for=""><i class="text-2xl text-accent fa-solid fa-magnifying-glass"></i></label>
+            <input type="text" placeholder=" search..."
+              class="outline-none w-[100px] focus:w-[300px] focus:border-b-2 focus:border-accent transition-all duration-300 placeholder:italic" />
+          </form>
+        </nav>
+      </div>
+    </section>
+  </header>
+  <!-- header end -->
+
+
+</body>
+<script src="../js/main.js"></script>
+<!-- swiper js -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</html>
